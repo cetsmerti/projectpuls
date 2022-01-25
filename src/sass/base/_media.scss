@@ -1,0 +1,163 @@
+@media (max-width: 991px){
+
+    .promo{
+        min-height: 480px;
+        &__header{
+            font-size: 33px;
+        }
+        &__subheader{
+            font-size: 20px;
+        }
+        &__link{
+            margin-right: 10px;
+        }
+    }
+    .title{
+        font-size: 25px;
+    }
+    .carousel{
+        &__inner{
+            width: 500px;
+            img{
+                width: 90%;
+            }
+        }
+
+    }
+    .reviews{
+        height: 750px;
+        &__block{
+            img{
+                margin-right: 15px;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        &__text{
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+}
+@media (max-width: 767px){
+    .promo{
+        &__header{
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 17px;
+        }
+        &__icons{
+            font-size: 13px;
+        }
+        &__link{
+            font-size: 10px;
+        }
+    }
+    .button_main{
+        font-size: 12px;
+        width: 250px;
+    }
+    .consultetion{
+        &__descr{
+            font-size: 18px;
+        }
+    }
+    .catalog__tab{
+        font-size: 16px;
+    }
+    .footer{
+        height: 450px;
+        iframe{
+            height: 450px;
+        }
+        &__info{
+            width: 350;
+        }
+    }
+
+}
+@media (max-width:577px){
+    .promo{
+        &__header{
+            font-size: 18px;
+        }
+        &__subheader{
+            font-size: 13px;
+        }
+        &__icon{
+            width: 350px;
+        }
+        &__icons{
+            font-size: 9px;
+            img{
+                width: 30px;
+                height: 40px;
+            }
+            
+        }
+        &__link{
+            font-size: 9px;
+        }
+    }
+    .advantages{
+        padding: 30px;
+
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__subtitle{
+            font-size: 14px;
+        }
+        &__text{
+            font-size: 10px;
+        }
+    }
+    .title{
+        font-size: 18px;
+    }
+    .consultetion{
+        &__descr{
+            font-size: 13px;
+        }
+        .feed-form{
+            width: 240px;
+            
+        }
+    }
+    .carousel{
+        &__inner{
+            margin: 0 0 0 0;
+            width: 500px;
+            img{
+                width: 280px;
+            }
+        }
+    }
+    .catalog__content{
+        align-content: space-around;
+        justify-content: center;
+    }
+    .footer{
+
+        &__info{
+            width: 350px;
+            height: 250px;
+        }
+        &__addr{
+            font-size: 16px;
+            line-height: 15px;
+        }
+        &__tell{
+            font-size: 15px;
+            line-height: 15px; 
+        }
+        &__social{
+            margin-left: 70px;
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
